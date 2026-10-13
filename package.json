@@ -1,0 +1,20 @@
+{
+  "name": "brand-studio-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Modern brand studio website with product photography and digital marketing services",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
